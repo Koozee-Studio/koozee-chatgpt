@@ -1,0 +1,4 @@
+interface:
+  display_name: "Koozee"
+  short_description: "Free-canvas fashion workflows"
+  default_prompt: "Create a fashion workflow on a free canvas and batch-generate images and videos."

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "koozee",
+  "version": "1.0.0",
+  "description": "Create Fashion Workflows on a Free Canvas. Batch-Generate Fashion Images and Videos.",
+  "author": {
+    "name": "Koozee",
+    "url": "https://koozee.ai"
+  },
+  "homepage": "https://koozee.ai",
+  "repository": "https://github.com/Koozee-Studio/koozee-chatgpt",
+  "license": "MIT",
+  "keywords": [
+    "koozee",
+    "fashion images",
+    "fashion videos",
+    "ecommerce AI images",
+    "ecommerce AI videos",
+    "virtual try-on tool",
+    "canvas",
+    "design",
+    "workflow"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Koozee",
+        "shortDescription": "Free-canvas fashion workflows",
+        "longDescription": "Create fashion workflows on a free visual canvas. Batch-generate AI fashion images and videos, add cards, and connect them into one look. Use a Koozee Skill such as virtual try-on when the job is a product rather than a free generation. Credits match the canvas. After the canvas changes, open the project link Koozee returns.",
+        "developerName": "Koozee",
+        "category": "Creativity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://koozee.ai",
+        "supportURL": "https://koozee.ai/contact-us",
+        "privacyPolicyURL": "https://koozee.ai/privacy-policy",
+        "termsOfServiceURL": "https://koozee.ai/terms-of-service",
+        "defaultPrompt": [
+          "Create a fashion workflow on a free canvas and batch-generate images and videos",
+          "Generate a high-quality swimwear product image featuring a fashion model.",
+          "Run a virtual try-on on this photo and place the results on my canvas"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
