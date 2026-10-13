@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "koozee",
   "version": "1.0.0",
-  "description": "Create Fashion Workflows on a Free Canvas. Batch-Generate Fashion Images and Videos.",
+  "description": "Create fashion images and videos with AI—all in one place.",
   "author": {
     "name": "Koozee",
     "url": "https://koozee.ai"
@@ -25,8 +25,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Koozee",
-        "shortDescription": "Free-canvas fashion workflows",
-        "longDescription": "Create fashion workflows on a free visual canvas. Batch-generate AI fashion images and videos, add cards, and connect them into one look. Use a Koozee Skill such as virtual try-on when the job is a product rather than a free generation. Credits match the canvas. After the canvas changes, open the project link Koozee returns.",
+        "shortDescription": "Create fashion images and videos with AI—all in one place.",
+        "longDescription": "Koozee is an AI visual marketing tool for fashion retailers, brands, and entrepreneurs. Use it with Codex to create virtual try-ons, on-model lifestyle images, and fashion marketing videos with simple prompts. Let Codex run workflows to generate images and videos in batches, or build your own on Koozee’s visual canvas. From product listings to marketing campaigns, create compelling visuals and make your products stand out.",
         "developerName": "Koozee",
         "category": "Creativity",
         "capabilities": ["Read", "Write"],
@@ -35,9 +35,9 @@
         "privacyPolicyURL": "https://koozee.ai/privacy-policy",
         "termsOfServiceURL": "https://koozee.ai/terms-of-service",
         "defaultPrompt": [
-          "Create a fashion workflow on a free canvas and batch-generate images and videos",
-          "Generate a high-quality swimwear product image featuring a fashion model.",
-          "Run a virtual try-on on this photo and place the results on my canvas"
+          "Use Koozee’s Virtual Try-On Skill to automatically try these 10 outfits on their corresponding models.",
+          "Use Koozee’s AI Background Skill to batch-generate eye-catching on-model lifestyle images for these outfits.",
+          "Use the 9-Grid Storyboard Skill to turn this model photo into a short fashion video for social media."
         ],
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
